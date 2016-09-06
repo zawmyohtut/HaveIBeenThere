@@ -8,7 +8,10 @@
     <input [(ngModel)]="credentials.password" placeholder="Enter your password">
 </div>
 <div>
-    <button value="Login"></button>
+    <!--<button value="Login"></button>-->
+    <a routerLink="/home"> Login </a>
 </div>
 <p>You have typed the email: {{credentials.email}}</p>
 <p>You have typed the password: {{credentials.password}}</p>
+
+<router-outlet></router-outlet>

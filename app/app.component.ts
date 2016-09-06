@@ -5,8 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <h1> {{ title }}</h1>
     <hibt-login></hibt-login>
-    <hibt-home></hibt-home>
-  `,
+  `
 })
 
 export class AppComponent { 

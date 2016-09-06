@@ -7,9 +7,12 @@ import { LocationDetailComponent } from './location-detail/location-detail.compo
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 
+import { routing } from './app.routing';
+
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, routing ],
   declarations: [ AppComponent, LoginComponent, HomeComponent, LocationDetailComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
+
