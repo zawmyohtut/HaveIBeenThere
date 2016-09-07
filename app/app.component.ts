@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'my-app',
   template: `
     <h1> {{ title }}</h1>
-    <hibt-login></hibt-login>
+    <router-outlet></router-outlet>
   `
 })
 

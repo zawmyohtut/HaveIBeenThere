@@ -11,8 +11,13 @@ const appRoutes: Routes = [
     component: LoginComponent
   },
   {
-    path: 'home',    
+    path: 'home',       
     component: HomeComponent
+  },
+  {
+    path: '',
+    redirectTo: '/login',
+    pathMatch: 'full'
   }
 ];
 
