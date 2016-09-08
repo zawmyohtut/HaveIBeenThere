@@ -7,7 +7,7 @@ export class Credentials {
 
 @Component({
   selector: 'hibt-login',
-  templateUrl: 'login.html'
+  templateUrl: 'app/login/login.html'
 })
 
 export class LoginComponent { 

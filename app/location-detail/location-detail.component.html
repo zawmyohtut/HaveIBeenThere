@@ -1,0 +1,7 @@
+    <div *ngIf="location">
+        <label>Your next destination : </label>
+        <input [(ngModel)]="location.title">
+        <input [(ngModel)]="location.description">
+    </div>
+    <button (click)="goBack()"> Back </button>
+    <router-outlet></router-outlet>
